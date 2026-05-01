@@ -27,26 +27,26 @@
 //     }
 // }
 
-class Carro {
-    String modelo;
-    int velocidade;
+// class Carro {
+//     String modelo;
+//     int velocidade;
 
-    void acelerar() {
-        velocidade = velocidade + 10;
-    }
-}
+//     void acelerar() {
+//         velocidade = velocidade + 10;
+//     }
+// }
 
-public class Principal {
-    public static void main(String[] args) {
-        Carro meuCarro = new Carro();
+// public class Principal {
+//     public static void main(String[] args) {
+//         Carro meuCarro = new Carro();
         
-        meuCarro.modelo = "Fusca";
-        meuCarro.velocidade = 0;
+//         meuCarro.modelo = "Fusca";
+//         meuCarro.velocidade = 0;
 
-        meuCarro.acelerar();
-        meuCarro.acelerar();
+//         meuCarro.acelerar();
+//         meuCarro.acelerar();
 
-        System.out.println(meuCarro.modelo);
-        System.out.println(meuCarro.velocidade);
-    }
-}
+//         System.out.println(meuCarro.modelo);
+//         System.out.println(meuCarro.velocidade);
+//     }
+// }
